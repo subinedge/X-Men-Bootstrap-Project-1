@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container">
       <a href="index.html" class="navbar-brand">X-Men</a>
 
@@ -26,16 +26,13 @@
             <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about-head-section" class="nav-link">About</a>
+            <a href="#watch-videos" class="nav-link pl-3">Watch Videos</a>
           </li>
           <li class="nav-item">
-            <a href="#portfolio-head-section" class="nav-link">Portfolio</a>
+            <a href="#movies" class="nav-link pl-3">Movies</a>
           </li>
           <li class="nav-item">
-            <a href="#favorites-head-section" class="nav-link">Favorites</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact-head-section" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link pl-3 pr-3">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,52 +47,159 @@
       <!-- add overlay to image  -->
       <div class="container home-inner">
         <div class="row">
-          <div class="col-lg-8 d-none d-lg-block">
+          <div class="col-lg-8">
             <!-- default dont show, only show on large screen  -->
-            <p class="text-monospace mt-5 font-weight-bold">MUTANT SUPER TEAM</p>
-            <h1 class="display-3 font-weight-bold">X-Men</h1>
-
-            <div class="d-flex">
-              <!-- make it horizontal  -->
-              <div class="p-3 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-
-              <div class="p-3 align-self-end">
-                Wolverine
-              </div>
+            <div class="test-width-770px">
+              <p class="text-monospace mt-5 font-weight-bold">MUTANT SUPER TEAM</p>
+              <h1 class="display-3 font-weight-bold">X-Men</h1>
             </div>
+            <div class="test">
+              <div class="d-flex">
+                <!-- make it horizontal  -->
+                <div class="p-3 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
 
-            <div class="d-flex">
-              <!-- make it horizontal  -->
-              <div class="p-3 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
+                <div class="p-3 align-self-end">
+                  Charles Xavier’s team of merry mutants is charged with the mission of protecting a world that hates
+                  and
+                  fears them for their unusual appearances and abilities.
+                </div>
               </div>
 
-              <div class="p-3 align-self-end">
-                Professor X
-              </div>
-            </div>
+              <div class="d-flex">
+                <!-- make it horizontal  -->
+                <div class="p-3 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
 
-            <div class="d-flex">
-              <!-- make it horizontal  -->
-              <div class="p-3 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
+                <div class="p-3 align-self-end">
+                  Realizing mutants were the next step in human evolution, Professor Charles Xavier gathered gifted
+                  teenagers to be his first class of students.
+                </div>
               </div>
 
-              <div class="p-3 align-self-end">
-                Magneto
+              <div class="d-flex">
+                <!-- make it horizontal  -->
+                <div class="p-3 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+
+                <div class="p-3 align-self-end">
+                  After an alien device mutated her DNA, Carol Danvers transformed from a merely brilliant pilot into
+                  one
+                  of the most powerful Super Heroes in the universe.
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="card bg-primary text-center"></div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card bg-light text-center card-form">
+              <div class="card-body">
+                <h3 class="text-dark">SignUp to win Wolverine Claws</h3>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-outline-dark btn-block">
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+
+  <section id="under-header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-left align-height-h1-p lead">
+          <h1 class="display-3">X-Men</h1>
+          <p class="text-justify">Realizing mutants were the next step in human evolution, Professor Charles Xavier
+            gathered gifted teenagers to be his first class of students. His goal to protect and educate the next
+            generation of homo
+            superior, while pursuing a dream of harmony.</p>
+          <button class="btn btn-outline-dark text-muted">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="under-x-men-white-section" class="text-muted text-justify">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-height-h1-p lead">
+          <h1 class="display-3">Magneto</h1>
+          <p>Magneto is a fictional character appearing in American comic books published by Marvel Comics, commonly in
+            association with the X-Men. Created by writer Stan Lee and artist Jack Kirby, the character first appears
+            in The X-Men #1 (cover-dated Sept. 1963) as an adversary of the X-Men.
+
+            The character is a powerful mutant, one of a fictional subspecies of humanity born with superhuman
+            abilities, who has the ability to generate and control magnetic fields. Magneto regards mutants as
+            evolutionarily superior to humans and rejects the possibility of peaceful human-mutant coexistence; he aims
+            to conquer the world. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>X-Men</h3>
+          <p>Copyright &copy; <span id="year"></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#modalContact">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade text-dark" id="modalContact">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title text-center">Contact Us !</h5>  -->
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Id</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-primary btn-block">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

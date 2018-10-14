@@ -1,10 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+
+body {
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+}
 
 nav {
-  font-family: 'Audiowide';
+  font-family: 'Hanalei Fill';
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  opacity: 0.7;
 }
 
 .text-monospace {
   font-size: 22px;
   letter-spacing: 3px;
+}
+
+#home-section {
+  background-image: url('../img/hero-image.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.9;
+}
+
+#home-section h1 {
+  font-family: 'Audiowide';
+}
+
+#home-section h1,
+#home-section p {
+  color: grey;
+}
+
+#home-section .fas {
+  color: grey;
+  padding: 5px;
+}
+
+/* Under Header Section */
+
+#under-header-section {
+  background: url('../img/under-header-section.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: black;
+}
+
+.align-height-h1-p {
+  padding-top: 9em;
+  line-height: 1.5em;
+}
+
+#under-header-section p {
+  width: 300px;
+}
+
+/* Under x-men-white-section */
+
+#under-x-men-white-section {
+  background: url('../img/under-x-men-white-section.jpg');
+  min-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+}
+
+@media (max-width: 770px) {
+  .test {
+    display: none;
+  }
+
+  .test-width-770px {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .test-width-770px p {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
 }
