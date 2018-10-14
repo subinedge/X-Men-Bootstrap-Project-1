@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+nav {
+  font-family: 'Audiowide';
+}
+
+.text-monospace {
+  font-size: 22px;
+  letter-spacing: 3px;
+}
